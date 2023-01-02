@@ -1,0 +1,28 @@
+#top-bar {
+  display: flex;
+
+  width: 100%;
+  height: fit-content;
+  
+  background: var(--main-color);
+
+  color: #fff;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+#top-bar>div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100%;
+}
+
+#top-bar>.center {
+  flex-grow: 1;
+}
+
+#top-bar>.right {
+  margin-right: 0.6em;
+}
