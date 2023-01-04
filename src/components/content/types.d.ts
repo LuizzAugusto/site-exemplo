@@ -13,3 +13,7 @@ export type PageTemplatePropsType = {
 export type PagePropsType = {
   signalsBag: SignalsBagType
 };
+
+export type BannerPropsType = {
+  children: JSX.Element
+}

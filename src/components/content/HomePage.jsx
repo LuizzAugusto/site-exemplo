@@ -1,4 +1,5 @@
 //@ts-check
+import { Banner } from "./Banner";
 import { PageTemplate } from "./template/PageTemplate";
 
 /**
@@ -8,6 +9,7 @@ import { PageTemplate } from "./template/PageTemplate";
  */
 export function HomePage(props) {
   return <PageTemplate>
+    <Banner>{"teste"}</Banner>
     {`
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac ligula tortor. Fusce at tellus nisi. Vestibulum leo velit, cursus vitae lobortis nec, varius quis mauris. Etiam lacus dui, finibus sit amet finibus a, condimentum vel sem. Suspendisse potenti. In sed lorem vitae lorem malesuada porttitor vel at eros. Nunc gravida iaculis enim ac lacinia. Curabitur sit amet libero vel nunc hendrerit vehicula.
