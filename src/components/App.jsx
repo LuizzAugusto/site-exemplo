@@ -1,7 +1,7 @@
 //@ts-check
 import { loadCSS } from "../utils/loadCSS.js";
 import { signalsBag } from "../utils/signalsBag.js";
-import { TopBar } from "./bars/TopBar.jsx";
+import { TopBar } from "./navigation/TopBar.jsx";
 import { SideMenu } from "./navigation/SideMenu.jsx";
 
 /**

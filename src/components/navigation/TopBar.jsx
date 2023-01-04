@@ -1,6 +1,6 @@
 //@ts-check
 import { loadCSS } from "../../utils/loadCSS.js";
-import { MenuButton } from "../inputs/MenuButton.jsx.js";
+import { MenuButton } from "../inputs/MenuButton.jsx";
 
 /**
  * 
