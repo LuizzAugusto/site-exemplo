@@ -1,6 +1,6 @@
 //@ts-check
 import { loadCSS } from "../../utils/loadCSS.js";
-import { Button } from "../buttons/Button.jsx";
+import { Button } from "../inputs/Button.jsx";
 
 /**
  * 

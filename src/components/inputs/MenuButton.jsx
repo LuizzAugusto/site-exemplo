@@ -1,5 +1,5 @@
 //@ts-check
-import { MenuHamburger } from "../SVGs/MenuHamburger.jsx";
+import { MenuHamburger } from "../images/MenuHamburger.jsx";
 import { Button } from "./Button.jsx";
 
 /**

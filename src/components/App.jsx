@@ -2,7 +2,7 @@
 import { loadCSS } from "../utils/loadCSS.js";
 import { signalsBag } from "../utils/signalsBag.js";
 import { TopBar } from "./bars/TopBar.jsx";
-import { SideMenu } from "./menus/SideMenu.jsx";
+import { SideMenu } from "./navigation/SideMenu.jsx";
 
 /**
  * 

@@ -1,6 +1,6 @@
 //@ts-check
 import { createSignal } from "solid-js";
-import { HomePage } from "../components/pages/HomePage";
+import { HomePage } from "../components/content/HomePage";
 
 /**
  * @type {import("../components/types").SignalsBagType}
