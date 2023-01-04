@@ -1,0 +1,42 @@
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  max-width: 27em;
+  min-height: 9em;
+
+  background: var(--card-color);
+  
+  color: white;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card-container > .card {
+  --margin: 4px;
+  margin: var(--margin);
+  width: calc(25% - var(--margin) * 2);
+}
+
+@media screen and (max-width: 720px) {
+  .card-container > .card {
+    width: calc(33% - var(--margin) * 2);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card-container > .card {
+    width: calc(50% - var(--margin) * 2);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .card-container > .card {
+    width: calc(100% - var(--margin) * 2);
+  }
+}

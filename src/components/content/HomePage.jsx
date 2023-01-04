@@ -1,5 +1,7 @@
 //@ts-check
-import { Banner } from "./Banner";
+import { Banner } from "../displays/Banner";
+import { Card } from "../displays/Card";
+import { CardContainer } from "../displays/CardContainer";
 import { PageTemplate } from "./template/PageTemplate";
 
 /**
@@ -36,5 +38,19 @@ Integer luctus sapien ac diam faucibus, vitae ultrices erat molestie. Proin eget
 
 Morbi tristique neque ac nibh facilisis accumsan. Praesent vulputate consectetur pretium. Proin at enim vel felis varius vulputate ac nec enim. Pellentesque finibus, purus et feugiat faucibus, justo sem finibus justo, ac rutrum ligula mi sed augue. Nulla venenatis massa velit, sit amet pretium tellus tristique in. Aliquam at mattis nulla, a condimentum nisi. Proin semper justo a eros sollicitudin consequat. Aenean at urna congue, venenatis quam nec, dapibus magna. In tellus sapien, aliquet eu iaculis tempor, tincidunt congue est. Etiam quis urna vitae nulla iaculis vehicula a ac mi. Proin et orci sit amet dolor placerat elementum.
 `}
+  <CardContainer>
+    <Card>1</Card>
+    <Card>2</Card>
+    <Card>3</Card>
+    <Card>4</Card>
+    <Card>5</Card>
+    <Card>6</Card>
+    <Card>7</Card>
+    <Card>8</Card>
+    <Card>9</Card>
+    <Card>10</Card>
+    <Card>11</Card>
+    <Card>12</Card>
+  </CardContainer>
   </PageTemplate>;
 }
